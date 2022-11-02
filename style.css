@@ -79,16 +79,16 @@ a{
     color: black;
 }
 
-.small {
+.small-nav {
     width: 25%;
 }
 
-.big {
+.big-nav {
     width: 50%;
     text-align: center;
 }
 
-.small.right {
+.small-nav.right {
     text-align: end;
 }
 
@@ -103,7 +103,7 @@ a{
     align-items: center;
 }
 
-.ss {
+.small-section {
     height: 300px;
 }
 
@@ -127,7 +127,7 @@ a{
     border: var(--bb);
 }
 
-.bs {
+.big-section {
     height: 500px;
 }
 
@@ -145,7 +145,7 @@ a{
 
 .sidebar-small{
     height: 200px;
-    width: calc(100% / 5 *1);
+    width: calc(100% / 5);
     border: var(--wb);
 }
 
