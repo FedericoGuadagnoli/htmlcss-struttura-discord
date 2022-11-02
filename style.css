@@ -4,3 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILS */
+:root {
+    --space: 5px;
+}
+
+/* GENERICS */
+body {
+    width: 100%;
+}
+/* HEADER */
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    height: 75px;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.small {
+    width: 25%;
+    border: 1px dashed black;
+    padding: var(--space);
+}
+nav.big {
+    width: 50%;
+    border: 1px dashed black;
+    padding: var(--space);
+    text-align: center;
+}
+
+nav.small.text-right {
+    text-align: right;
+}
