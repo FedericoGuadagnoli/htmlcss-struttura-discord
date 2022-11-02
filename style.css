@@ -12,7 +12,11 @@ body {
 /* UTILS */
 :root {
     --space: 5px;
+    --bb: 2px dashed black;
+    --wb: 2px dashed white;
 }
+
+    
 .orange {
     background-color: #daa520;
 }
@@ -52,10 +56,7 @@ body {
     background-color: #7fffd4;
 }
 
-:root {
-    --bb: 2px dashed black;
-    --wb: 2px dashed white;
-}
+
 /* HEADER */
 header {
     background-color: #add8e6;
