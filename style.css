@@ -33,6 +33,9 @@ body {
     background-color: #1e90ff;
 }
 
+.pink {
+    background-color: #ee82ee;
+}
 .lightpink {
     background-color: #ffc0cb;
 }
@@ -107,8 +110,7 @@ a{
     height: 300px;
 }
 
-.pink {
-    background-color: #ee82ee;
+.card {
     height: 200px;
     width: 70%;
     border: var(--bb);
